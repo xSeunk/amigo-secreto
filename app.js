@@ -37,7 +37,6 @@ function sortearAmigo() {
         asignarTextoElemento('#listaAmigos', '');
         document.getElementById('nuevoSorteo').removeAttribute('disabled');
         document.querySelector('#sortearAmigo').setAttribute('disabled','true');
-
         return amigoSorteado;
     }
     
